@@ -1,0 +1,115 @@
+
+#box3{
+	height:100%;
+}
+#iframe{
+	padding-bottom:20vh;
+}
+
+
+.contactus{
+	padding-top:20px;
+	padding-left:40px;
+}
+
+
+
+
+
+
+#iframe1{
+    display:flex;
+	width:40%;
+    justify-content: center;
+	margin:0 auto;
+    border: groove;
+    border-color: grey;
+    border-width: 3px;background-color:rgb(169,169,169);
+    opacity: 0.8;
+     z-index: -10;
+     padding:10px 10px 10px 10px;
+
+}
+
+
+label {
+    padding: 12px 12px 12px 0px;
+    display: inline-block;
+    font-size: 25px;
+}
+form{
+	width:100%;
+}
+
+.row{
+   min-height:50px;
+	width:80%;
+	margin:0px auto;
+
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    min-width: 70px;
+    
+    height:100%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float:left;
+    width: 75%;
+   
+   
+    height:100%;
+    margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input[type=text],input[type=email], textarea {
+    width: 80%;
+   min-height:30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+
+table{margin-left: 50px}
+
+td{
+font-size:20px;   
+height:50px;
+width:150px;
+font-weight:bold;
+z-index: 100;
+}
+
+/*#name,#email{
+    height:30px;
+    width:200px;
+
+}
+
+#message{
+   margin-top:30px;
+   width:200px;
+}*/
+
+#send_button{
+
+
+   
+    width:60px;
+    height:35px;
+    font-size: 15px;
+    font-weight:bold;
+    margin-top:10px;   
+}

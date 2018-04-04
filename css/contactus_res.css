@@ -1,0 +1,16 @@
+@media screen and (max-width:560px){
+
+
+  
+    .col-25{
+    	float:none;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .col-75{
+    	float:none;
+        width: 100%;
+        margin-top: 0;
+    }
+}

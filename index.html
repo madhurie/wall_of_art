@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta>
+  <title>Testing CSS Style Sheet</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" >
+  <link href="css/index_css.css" rel="stylesheet">
+
+  <link href="css/CSSNav.css" rel="stylesheet">
+  <link href="css/gallery.css" rel="stylesheet">
+  <link href="css/index_res.css" rel="stylesheet">
+  <link href="css/CSSNav_res.css" rel="stylesheet">
+  <link href="css/contactus.css" rel="stylesheet">
+ <link href="css/contactus_res.css" rel="stylesheet">
+  <link href="css/aboutus.css" rel="stylesheet">
+  <link href="css/aboutus_res.css" rel="stylesheet">
+ 
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/indexjs.js"></script>
+  <script src="js/navhighlight_gallery.js"></script>
+  
+   <script src="js/page_aboutjs.js"></script>
+
+</head>
+
+
+<body style="background-image:url('images/grey_brick_wall.jpg')">
+
+<div class="topnav">
+
+    <div class="menu_icon">
+    	<a href="#">&#9776;</a>
+    </div>
+
+
+    <div class="navbar">
+		 <ul>
+		 	
+		 	<li><a id="link_home" href="#">Home</a></li>
+		 	<li><a  id="link_gallery" href="#">Gallery</a></li>
+		 	<li><a  id="contact_us" href="#">Contact</a></li>
+		 	<li><a  id="about_us" href="#">About Us</a></li>
+		 		 
+		 </ul>		
+    </div>
+
+</div>
+
+<div id="wrapdiv">
+ <div id="box1">
+    <h1 class="wall_of_art">WALL OF ART</h1>	
+ 	<a id="link_showme"  class="anch" href="#">Show Me!</a> 
+ </div>
+
+	
+<div id="box2">
+	<div class="wrapper">
+	<a class="i1 cover" href="html/page_nature.html" ><img src="images/nature_coverimage.jpg" class="one" alt="Birds ina Grid" width="250" height="250" /></a>
+	<a class="i2 cover" href="html/page_family.html"><img src="images/family_coverimage.jpg" class="one" alt="Birds ina Grid" width="250" height="250" /></a>
+	<a class="i3 cover" href="html/page_flora.html"><img src="images/flora_coverimage.jpg" class="one" alt="Birds ina Grid" width="250" height="250" /></a>
+	<a class="i4 cover" href="html/page_cartoons.html"><img src="images/cartoon_cover.png" class="one" alt="Birds ina Grid" width="250" height="250" /></a>
+    </div>
+</div>
+
+
+
+ <div id="box3">
+    <div id="iframe">
+     <h1 class="contactus"> Contact us<Br></h1>
+  
+      
+      	<div id="iframe1">
+		<form  action="html/page_contact.php" method = "POST">
+		  
+	
+		   	<div class="row">
+			    <div class="col-25">
+			     	<label for="name">Name</label>
+			    </div>	
+			    <div class="col-75">
+			     	<input type="text"  name="name" id="name">
+			    </div>	
+			</div>
+
+			<div class="row">
+			    <div class="col-25">
+			     	<label for="email">Email</label>
+			    </div>	
+			    <div class="col-75">
+			     	<input type="email"  name="email" id="email">
+			    </div>	
+			</div>
+			     
+			<div class="row">
+			    <div class="col-25">
+			     	<label for="message">Message</label>
+			    </div>	
+			    <div class="col-75">
+			     	<textarea name="message" id="message" rows="8" cols="20"></textarea>
+			    </div>	
+			</div>    
+			         
+			     
+			 <div class="row">
+			 	<div class="col-25">
+			     	
+			    </div>
+			 	<div class="col-75">
+		     		<input type="submit" value="Send" id="send_button">
+		        </div>
+		     </div>
+		</form>
+    </div>
+</div>
+</div>
+
+<div id="box4">
+     <div>
+    <h1 class="contributors"> Contributors <Br></h1>
+    </div>
+    <div class="for_margin">
+
+          <div id ="img_1">
+          <figure class="fig_about">	
+          <img class = "img_2" src ="images/aboutus_images/swetha.jpg" >
+          <figcaption > SWETHA REDDY KATKAM</figcaption>
+          </figure>
+          </div>
+
+          <div id ="img_1">
+          <figure class="fig_about">
+          <img class = "img_2" src ="images/aboutus_images/githika.jpg">
+          <figcaption> GITHIKA TONDAPU</figcaption>
+          </figure>
+          </div>
+
+          <div id ="img_1">
+          <figure class="fig_about">
+          <img class = "img_2" src ="images/aboutus_images/madhuri.jpg">
+          <figcaption class="img_3"> MADHURI EDALA</figcaption>
+          </figure>
+          </div>
+
+          <div id ="img_1">
+          <figure class="fig_about">	
+          <img class = "img_2" src ="images/aboutus_images/tanvi.jpg">
+          <figcaption class="img_3">TANVI PAWALE</figcaption>
+          </figure>
+          </div>
+
+    </div>
+
+</div>
+
+</div>
+
+
+</body>
+</html>

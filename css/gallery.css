@@ -1,0 +1,34 @@
+.one{
+
+padding:10px 10px 10px 10px ;
+margin-top:100px;
+margin-left:30px;
+width:20vw;
+height:20vw;
+border-radius: 25px;
+/*padding-left:5px;*/
+}
+
+#css_style_id{
+
+width:250px;
+height: 250px;
+
+}
+
+.wrapper{
+
+	display:flex;
+	width:100%;
+	flex-direction:row;
+}
+
+.cover{
+	width:25%;
+}
+
+/*.one{
+	width:100%;
+	height:100%;
+}*/
+

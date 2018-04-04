@@ -1,0 +1,43 @@
+
+   @media screen and  (max-width:460px){
+
+
+
+	.menu_icon{
+		display:block;
+		text-decoration:none;
+	}
+
+	.navbar{
+		display:none;
+	}
+	
+
+
+
+.navbar.shown{
+	
+   display:block;
+   top:20px;
+ 
+  }
+
+.navbar.shown ul{
+	
+	padding:0;
+	margin:0;
+	 background-color:transparent;
+}
+
+  .navbar.shown ul li{
+  	  float:none;
+  	  display:block;
+  	  padding-top:5px;
+  	  padding-bottom:5px;
+  	 max-width:100px;
+  	 margin:0px 0px 0px 0px; 
+  	 border:1px solid #111312;   
+  }
+
+  
+}

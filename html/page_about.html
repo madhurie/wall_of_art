@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta>
+  <title>Testing CSS Style Sheet</title>
+  <link href="../css/CSSNav.css" rel="stylesheet">
+  <link href="../css/CSSNav_res.css" rel="stylesheet">
+  <link href="../css/CSSaboutus.css" rel="stylesheet">
+  <link href="../css/aboutus_res_css.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1" >
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="../js/indexjs.js"></script>
+   <script src="../js/page_aboutjs.js"></script>
+
+
+    <script>
+    	$(document).ready(function(){
+            $("#about").addClass('active');
+    	});
+    	
+    </script>
+</head>
+
+
+<body style="background-image:url('../images/grey_brick_wall.jpg')">
+
+
+<div class="topnav">
+
+    <div class="menu_icon">
+         <a href="#">&#9776;</a>
+    </div>
+
+
+    <div class="navbar">  
+         <ul>
+         	
+         	<li><a href="../index.html">Home</a></li>
+         	<li><a  href="../index.html#box2">Gallery</a></li>
+         	<li><a  href="page_contact.php">Contact</a></li>
+         	<li><a id="about" href="page_about.html">About Us</a></li>
+         
+         </ul>		
+    </div>
+
+</div>
+
+<div>
+
+    <h1> Contributors <Br></h1>
+
+    <div class="for_margin">
+
+          <div id ="img_1">
+          <figure class="fig_about">	
+          <img class = "img_2" src ="../images/aboutus_images/swetha.jpg" >
+          <figcaption > SWETHA REDDY KATKAM</figcaption>
+          </figure>
+          </div>
+
+          <div id ="img_1">
+          <figure class="fig_about">
+          <img class = "img_2" src ="../images/aboutus_images/githika.jpg">
+          <figcaption> GITHIKA TONDAPU</figcaption>
+          </figure>
+          </div>
+
+          <div id ="img_1">
+          <figure class="fig_about">
+          <img class = "img_2" src ="../images/aboutus_images/madhuri.jpg">
+          <figcaption class="img_3"> MADHURI EDALA</figcaption>
+          </figure>
+          </div>
+
+          <div id ="img_1">
+          <figure class="fig_about">	
+          <img class = "img_2" src ="../images/aboutus_images/tanvi.jpg">
+          <figcaption class="img_3">TANVI PAWALE</figcaption>
+          </figure>
+          </div>
+
+    </div>
+
+</div>
+ 
+</body>
+</html>
